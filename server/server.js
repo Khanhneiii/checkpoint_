@@ -16,6 +16,7 @@ var startTime = process.hrtime();
 // const URI = 'mongodb+srv://1111:1234@checkpoint.dvt4rzg.mongodb.net/?retryWrites=true&w=majority' 
 // const URI = 'mongodb+srv://quangduytran:habui28052003@cluster0.n11dnbs.mongodb.net/?retryWrites=true&w=majority'
 const URI = 'mongodb://localhost:27017' 
+// const URI = 'mongodb://0.0.0.0:27017/Test' 
 
 global.__basedir  =  __dirname;
 dotenv.config();
